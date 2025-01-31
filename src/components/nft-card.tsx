@@ -38,7 +38,7 @@ const NFTCard = ({
         `Burned token ${token.tokenId} with tx:`,
         txData.transactionHash
       );
-  }, [txSuccess, onTxSuccess]);
+  }, [txSuccess]);
 
   const handleClick = () => {
     if (!account?.address) return;
